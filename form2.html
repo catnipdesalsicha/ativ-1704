@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Faça seu cadastro</h1>
+    <h3>Duda fez isso :) </h3>
+    <fieldset>
+        <legend>Dados pessoais:</legend>
+        <label>Nome:<input type="text" name="name"></label><br>
+        <label>Idade: <input type="text" name="idade"></label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados profissionais</legend>
+        <label>Escolaridade:
+            <select name="Esccolaridade">
+                <option value="em"> Ensino Médio</option>
+                <option value="nt">Nível Técnico</option>
+                <option value="ns">Nível Superior</option>
+            </select>
+        </label>
+        <br>
+        <label>Área de Atuação:
+            <input type="radio" name="cargo" value="1" checked> Gerência
+            <input type="radio" name="cargo" value="2"> Recepção
+            <input type="radio" name="cargo" value="3"> Financeiro
+        </label>
+    </fieldset>
+
+    <br><input type="submit" value="Pronto!">
+</body>
+</html>
